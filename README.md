@@ -6,7 +6,7 @@ P.S. Пользователям Windows, чтобы сильно не страд
 
 Debain-based:
 ```bash
-sudo apt-get git cmake glm goxygen
+sudo apt-get install git cmake glm goxygen
 ```
 Arch-based:
 ```bash
