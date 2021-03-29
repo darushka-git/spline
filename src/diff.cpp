@@ -1,4 +1,5 @@
 #include <spline/diff.hpp>
+#include <tinynurbs/tinynurbs.h>
 #include <iostream>
 Diff::Diff()
 {

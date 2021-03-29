@@ -11,6 +11,9 @@ target_include_directories(spline PUBLIC ../include)
 #Версия С++
 target_compile_features(spline PUBLIC cxx_std_14)
 
+#Подключаем сторонние библиотеки
+target_link_libraries(spline PRIVATE tinynurbs::tinynurbs)
+
 #Для IDE
 source_group(
   TREE "${PROJECT_SOURCE_DIR}/include"

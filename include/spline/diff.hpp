@@ -1,4 +1,5 @@
 #pragma once
+#include <tinynurbs/tinynurbs.h>
 class Diff
 {
 public:
