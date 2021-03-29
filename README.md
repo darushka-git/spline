@@ -17,7 +17,7 @@ sudo pacman -S git cmake glm goxygen
 ```bash
 git clone https://github.com/KMBO-01-19-Spline/spline.git
 ```
-ну и для фанатов SSH-ключей:
+ну и для фанатов SSH:
 ```bash
 git clone git@github.com:KMBO-01-19-Spline/spline.git
 ```
@@ -39,16 +39,18 @@ cmake -S . -B build && cmake --build build
 ### Самая маленькая инструкция по работе с GitHub
 Когда написали код и хотите залить его на сервер, нужно выполнить след.действия
 
-Первоначальная настройка git
+#### Первоначальная настройка git
 ```bash
 git config --global user.name "My Name"
 git config --global user.email myEmail@example.com
 ```
 
-Посмотреть изменения, которые вы сделали:
+#### Посмотреть изменения, которые вы сделали:
 ```bash
 git status
 ```
+#### Сохраняем изменения
+
 А теперь внимательно. Заливать изменения на основную ветку НЕНУЖНО. Вы создаете отдельную ветку и вносите изменения туда, потом она будет соединена с основной веткой. 
 
 Создаем ветку
@@ -70,7 +72,6 @@ git add имя_файла
 git commit -m "Ваше описание изменений"
 ```
 
-
 Заливаем на новую ветку
 ```bash
 git push https://github.com/KMBO-01-19-Spline/spline.git your_branch
@@ -81,7 +82,7 @@ git push https://github.com/KMBO-01-19-Spline/spline.git your_branch
 ```bash
 git git@github.com:KMBO-01-19-Spline/spline.git push your_branch
 ``` 
-Не забываем получать обновление с сервера. 
+#### Не забываем получать обновления с сервера 
 
 Эта команда вызывает слияния. Проблем быть не должно, если вы сразу коммите в новую ветку
 ```bash
