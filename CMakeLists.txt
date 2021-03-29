@@ -35,3 +35,6 @@ endif()
 #Добавляем папки
 add_subdirectory(src)
 add_subdirectory(apps)
+
+#Внешние библиотеки
+add_subdirectory(thirdparty/tinynurbs/)

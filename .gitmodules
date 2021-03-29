@@ -1,0 +1,3 @@
+[submodule "thirdparty/tinynurbs"]
+	path = thirdparty/tinynurbs
+	url = git@github.com:pradeep-pyro/tinynurbs.git
