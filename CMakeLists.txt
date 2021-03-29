@@ -17,18 +17,15 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
     
     #Разрешаем IDE работать
     set_property(GLOBAL PROPERTY USE_FOLDERS ON)
-
-    #Включаем тестирование
-    #include(CTest)
     
     #Включаем документирование
-    #find_package(Doxygen)
+    find_package(Doxygen)
     
-    #if(Doxygen_FOUND)
-        #add_subdirectory(docs)
-    #else()
-        #message(STATUS "Doxygen not found, not building docs")
-    #endif()
+    if(Doxygen_FOUND)
+        add_subdirectory(docs)
+    else()
+        message(STATUS "Doxygen not found, not building docs")
+    endif()
 
 endif()
 
