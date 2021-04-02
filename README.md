@@ -10,7 +10,7 @@ sudo apt-get install git cmake glm doxygen gcc
 ```
 Arch-based:
 ```bash
-sudo pacman -S git cmake glm goxygen gcc
+sudo pacman -S git cmake glm doxygen gcc
 ```
 
 ### Скачивание репозитория
