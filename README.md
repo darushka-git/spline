@@ -6,11 +6,11 @@ P.S. Пользователям Windows, чтобы сильно не страд
 
 Debain-based:
 ```bash
-sudo apt-get install git cmake glm doxygen gcc
+sudo apt-get install git cmake glm doxygen gcc make
 ```
 Arch-based:
 ```bash
-sudo pacman -S git cmake glm doxygen gcc
+sudo pacman -S git cmake glm doxygen gcc make
 ```
 
 ### Скачивание репозитория
@@ -23,6 +23,10 @@ git clone git@github.com:KMBO-01-19-Spline/spline.git
 ```
 
 ### Компиляция
+Загружаем библиотеку
+```bash
+git submodule update --init
+```
 Команду выполнять из корневой папки проекта
 ```bash
 cmake -S . -B build && cmake --build build
