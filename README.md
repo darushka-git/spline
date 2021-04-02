@@ -6,11 +6,11 @@ P.S. Пользователям Windows, чтобы сильно не страд
 
 Debain-based:
 ```bash
-sudo apt-get install git cmake glm goxygen
+sudo apt-get install git cmake glm doxygen gcc
 ```
 Arch-based:
 ```bash
-sudo pacman -S git cmake glm goxygen
+sudo pacman -S git cmake glm goxygen gcc
 ```
 
 ### Скачивание репозитория
