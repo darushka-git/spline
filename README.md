@@ -25,7 +25,8 @@ git clone git@github.com:KMBO-01-19-Spline/spline.git
 ### Компиляция
 Загружаем библиотеку
 ```bash
-git submodule update --init
+git submodule init
+git submodule update
 ```
 Команду выполнять из корневой папки проекта
 ```bash
