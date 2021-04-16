@@ -6,7 +6,7 @@ P.S. Пользователям Windows, чтобы сильно не страд
 
 Debain-based:
 ```bash
-sudo apt-get install git cmake libglm-dev doxygen gcc make
+sudo apt-get install git cmake libglm-dev doxygen gcc make g++
 ```
 Arch-based:
 ```bash
