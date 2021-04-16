@@ -60,11 +60,7 @@ git status
 
 Создаем ветку
 ```bash
-git branch your_branch
-```
-Переключаемся на нее
-```bash
-git checkout your_branch
+git checkout -b your_branch
 ```
 
 Добавить изменения для коммита (что-то вроде блока изменений):

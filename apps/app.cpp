@@ -8,5 +8,6 @@ int main()
     Integral i;
     Diff d;
     tinynurbs::Curve<float> crv;
+    std::cout << "HELLO, WORLD\n";
     return 0;
 }
